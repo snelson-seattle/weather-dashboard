@@ -1,0 +1,23 @@
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snelson-seattle/weather-dashboard.git"
+  },
+  "keywords": [],
+  "author": "Scott E. Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snelson-seattle/weather-dashboard/issues"
+  },
+  "homepage": "https://github.com/snelson-seattle/weather-dashboard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
